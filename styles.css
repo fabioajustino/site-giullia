@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+}
+
+header{
+    padding: 16px 0;
+    background-color: #ff14bca6;
+    color: #ecf0f1;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;   
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container{
+    max-width: 1015px;
+    margin-top: 20px;
+}
+
+section p,
+.trabalho-todos p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#foto1{
+    max-height: 500px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#formação p{
+    margin-right: 20px;
+}
+
+#foto2{
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+#formação{
+    margin-top: 50px;
+}
+
+.instagram-media{
+    width: auto;
+    max-height: 450px;
+}
+
+.trabalho-todos{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.marcas-social{
+    display: flex;
+    justify-content: center;
+}
+
+#marca{
+    width: 50px;
+    margin-left:10px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+#contato{
+    align-items: start;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#social-media{
+    width: 70px;
+    margin-left:10px;
+}
+
+button{
+    background-color: #ff14bca6;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+button a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 17px;
+}
